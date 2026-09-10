@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Page 2</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/1-gallery.js"></script>
   </head>
   <body>
-    <header class="header">
+   <header class="header">
   <div class="container">
     <nav class="nav">
       <a class="nav-logo" href="./index.html" aria-label="Site logo">
@@ -31,9 +32,12 @@
     </nav>
   </div>
     <main>
-      <!-- Loads the specified .html file -->
+      <div class="container">
+        <h1 class="main-title">
+          <ul class="gallery"></ul>
+        </h1>
+        <a class="back-link" href="./index.html">Go back</a>
+      </div>
     </main>
-      
-    <script type="module" src="./1-gallery.html"></script>
   </body>
 </html>
