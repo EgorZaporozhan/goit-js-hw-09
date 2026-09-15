@@ -1,3 +1,4 @@
+import '../css/styles.css';
 import '../css/gallery.css';
 
 import SimpleLightbox from 'simplelightbox';
