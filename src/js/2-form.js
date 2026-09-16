@@ -17,7 +17,7 @@ function saveData(event) {
 const savedData = localStorage.getItem(data);
 
 if (savedData) {
-  const formData = JSON.parse(savedData);
+  formData = JSON.parse(savedData);
   form.email.value = formData.email;
   form.message.value = formData.message;
   //   console.log(formData);
